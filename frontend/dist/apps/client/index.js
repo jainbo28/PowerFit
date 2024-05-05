@@ -1,4 +1,4 @@
-let btn = document.getElementById('add-task');
+let btn = document.getElementById('submit');
 let firstName = document.getElementById('firstName');
 let lastName = document.getElementById('lastName');
 let age = document.getElementById('age');
@@ -74,5 +74,5 @@ function enableDisableInputs( value )
 }
 
 
-let arr = [1,2,3,4];
+let arr = [1,2,3,4,5,6];
  

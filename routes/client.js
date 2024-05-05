@@ -12,10 +12,10 @@ router.post('/add', function( req, res ){
         host: 'localhost',
         user:'root',
         password:'yeb123456',
-        database:'client_mngmt'
+        database:'powerfit'
     });
 
-    // insert into tasks using body object. Use callbacks to handle errors
+    // insert into client using body object. Use callbacks to handle errors
     pool.query('INSERT INTO client (firstName, lastName, age, gender, email) VALUES(?,?,?,?,?)'
     , [firstName, lastName, age, gender, email], (err, result)=>{
 

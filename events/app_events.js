@@ -12,3 +12,4 @@ subscribe( 'error', ( data )=>{
      * Implement your logic to handle errors here
      */
 });
+
